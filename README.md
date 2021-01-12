@@ -11,8 +11,9 @@ The repository now mainly consists of the following stuffs:
 3. Many strategies to decompose an arbitrary graph into many(usually <10) bipartite graphs.
 
 As this package is built on [PyTorch](https://pytorch.org)  and
-[pytorch_sparse](https://github.com/rusty1s/pytorch_sparse>), you can easily integrate functionalities here into a 
-PyTorch pipeline. Check the [document](https://thgsp.readthedocs.io/en/latest/) for installation and introduction.
+[pytorch_sparse](https://github.com/rusty1s/pytorch_sparse>), you can easily integrate functionalities from 
+**thgsp**into a PyTorch pipeline. Check the document([link1](https://thgsp.readthedocs.io/en/latest/) or
+[link2](https://bwdeng20.github.io/thgsp_doc/)) for installation and introduction. 
 
 ## Table of Contents
 - [Example](#example)
