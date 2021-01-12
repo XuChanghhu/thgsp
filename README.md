@@ -1,27 +1,23 @@
 # *thgsp*
 
-![torgsp](./docs/source/_static/img/logo.svg)
-
-A **g**raph **s**ignal **p**rocessing toolbox built on [py**tor**ch](https://github.com/pytorch/pytorch).
+![torgsp](./docs/source/_static/img/logo.svg) \
 ![version](https://img.shields.io/static/v1?label=version&message=alpha&color=blue)
 ![version](https://img.shields.io/static/v1?label=cuda&message=passing&color=brightgreen)
-![license](https://img.shields.io/static/v1?label=license&message=MIT&color=yellow)
-
+![license](https://img.shields.io/static/v1?label=license&message=MIT&color=yellow) \
+A **g**raph **s**ignal **p**rocessing toolbox built on [py**tor**ch](https://github.com/pytorch/pytorch). 
 The repository now mainly consists of the following stuffs:
 1. GFT-based filter(banks) processing multi-dimensional signals in a Multiple Input Multiple Output(MIMO) manner.
 2. GraphQmf and GraphBiorth wavelet filter bank.
 3. Many strategies to decompose an arbitrary graph into many(usually <10) bipartite graphs.
 
-As this package is built on [PyTorch](https://(pytorch.org/>)  and
+As this package is built on [PyTorch](https://pytorch.org)  and
 [pytorch_sparse](https://github.com/rusty1s/pytorch_sparse>), you can easily integrate functionalities here into a 
 PyTorch pipeline. Check the [document](https://thgsp.readthedocs.io/en/latest/) for installation and introduction.
-
 
 ## Table of Contents
 - [Example](#example)
 - [Reference](#reference)
 - [Citation](#citation)
-- [License](#license)
 
 ## Example
 
@@ -54,6 +50,3 @@ See the full program [here](./demos/images/bio_cmn.py).
 [Aimin Jiang, et al.] [ Admm-based Bipartite Graph Approximation](https://ieeexplore.ieee.org/document/8682548/)
 
 ## Citation
-
-## License
-MIT
