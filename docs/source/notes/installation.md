@@ -33,10 +33,20 @@ export WITH_METIS=1 # for linux
 pip install torch-sparse
 ```
 
+### 1.3 Install SuiteSparse for scikit-sparse
+On Debian/Ubuntu systems, the following command should suffice:
+```
+sudo apt-get install libsuitesparse-dev
+```
+On Arch Linux, run:
+```
+sudo pacman -S suitesparse
+```
+
 ## 2.Install thgsp
 ### 2.1 From source
 
-You can only install it from source at present.
+You can only install it from source at present. 
 
 1 . Clone the thgsp repository from  `github`.
 
