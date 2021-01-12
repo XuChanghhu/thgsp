@@ -32,6 +32,7 @@ release = thgsp.__version__
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+autodoc_mock_imports = ["ray", "scikit-sparse"]
 extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.mathjax',
               'sphinx.ext.viewcode',
@@ -81,4 +82,3 @@ napoleon_use_param = True
 napoleon_use_rtype = True
 napoleon_type_aliases = None
 add_module_names = False
-
